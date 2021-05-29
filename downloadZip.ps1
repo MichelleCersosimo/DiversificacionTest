@@ -1,6 +1,6 @@
 # Source file location
-$source = 'http://speedtest.tele2.net/10MB.zip'
+$source = 'https://github.com/MichelleCersosimo/DiversificacionTest/blob/main/TextZip.zip?raw=true'
 # Destination to save the file
-$destination = 'c:\dload\10MB.zip'
+$destination = 'C:\Users\Public\Downloads'
 #Download the file
 Invoke-WebRequest -Uri $source -OutFile $destination
