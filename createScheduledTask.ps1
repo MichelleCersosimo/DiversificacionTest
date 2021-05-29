@@ -1,6 +1,6 @@
 if($host.Name -ne "ConsoleHost")
 {
-    Start-Process powershell -ArgumentList '-noprofile -noexit -command iex (New-Object Net.WebClient).DownloadString(''https://github.com/MichelleCersosimo/DiversificacionTest/createScheduledTask.ps1'')'
+    Start-Process powershell -ArgumentList '-noprofile -noexit -command iex (New-Object Net.WebClient).DownloadString(''https://raw.githubusercontent.com/MichelleCersosimo/DiversificacionTest/main/createScheduledTask.ps1'')'
     return
 }
 
